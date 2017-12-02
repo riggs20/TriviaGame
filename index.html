@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trivia Game</title>
+
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Overlock|Sigmar+One" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<script src="assets/javascript/app.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="page-header">
+			<h1>Totally Trivial Trivia!</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<button class="btn btn-primary btn-lg btn-block" id="start-btn" type="button">Start</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<p id="time-remaining">Time Remaining: <span id="timer"></span></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>1. Lightning never strikes in the same place twice.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" class="incorrect">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" class="correct">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>		
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>2. If you cry in space the tears just stick to your face.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" class="correct">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" class="incorrect">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>3. If you cut an earthworm in half, both halves can regrow their body.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios5" value="option5" class="incorrect">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios6" value="option6" class="correct">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>		
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>4. Humans can distinguish between over a trillion different smells.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios7" value="option7" classe="correct">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios8" value="option8" class="incorrect">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>		
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>5. Adults have fewer bones than babies do.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios9" value="option9" class="correct">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios10" value="option10" class="incorrect">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>		
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>6. Napoleon Bonaparte was extremely short.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios11" value="option11" class="incorrect">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios12" value="option12" classe="correct">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>7. Goldfish only have a memory of three seconds.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios13" value="option13" class="incorrect">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios14" value="option14" classe="correct">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>8. There are more cells of bacteria in your body than there are human cells.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios15" value="option15" class="correct">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios16" value="option16" class="incorrect">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>9. Your fingernails and hair keep growing after you die.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios17" value="option17" class="incorrect">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios18" value="option18" class="correct">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+		<div class="row">
+			<div class="form-group">
+
+				<p>10. Birds are dinosaurs.</p>
+
+				<form>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios19" value="option19" class="correct">
+						TRUE
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios20" value="option20" class="incorrect">
+						FALSE
+						</label>
+					</div>
+				</form>
+			</div>				
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<button class="btn btn-primary btn-lg btn-block" id="done-btn" type="button">Done</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4" id="game-over">
+				<h3>DONE!</h3>
+				<p id="correct-answers"></p>
+				<p id="incorrect-answers"></p>
+				<p id="unanswered"></p>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+</body>
+</html>

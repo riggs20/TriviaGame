@@ -1,0 +1,30 @@
+body {
+	background-image: url(../images/food.png);
+	font-family: 'Overlock', cursive;
+	text-align: center;
+	font-size: 20px;
+}
+
+.container {
+	background-color: #ffffe6;
+}
+
+.page-header {
+	font-family: 'Sigmar One', cursive;
+}
+
+#time-remaining {
+	font-size: 25px;
+}
+
+#game-over {
+	font-size: 25px;
+}
+
+#start-btn {
+	margin: 250px 0;
+}
+
+#game-over {
+	padding: 100px 15px;
+}
